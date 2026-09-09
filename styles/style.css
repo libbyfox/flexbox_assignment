@@ -34,7 +34,6 @@
 .squares__box--spread {
     justify-content: space-between;
     align-items: center;
-    gap: 12px;
 }
 
 .squares__square {
@@ -52,7 +51,7 @@
 }
 
 .squares__square--center {
-    align-self: center;
+    align-self: flex-start;
 }
 
 .squares__square--bottom {
