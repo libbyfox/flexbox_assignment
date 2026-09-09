@@ -38,7 +38,27 @@
 }
 
 .squares__square {
-    width: 40px;
-    height: 40px;
+    width: 78px;
+    height: 78px;
     background-color: darkred;
+}
+
+.squares__square--tall {
+    height: 120px;
+}
+
+.squares__square--top {
+    align-self: flex-start;
+}
+
+.squares__square--center {
+    align-self: center;
+}
+
+.squares__square--bottom {
+    align-self: flex-end;
+}
+
+.squares__square--wide {
+    width: 156px;
 }
