@@ -13,6 +13,30 @@
     background-color: orange;
 }
 
+.squares__box--left {
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+.squares__box--center {
+    justify-content: center;
+    align-items: center;
+      gap: 12px;
+}
+
+.squares__box--right {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+}
+
+.squares__box--spread {
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
 .squares__square {
     width: 40px;
     height: 40px;
