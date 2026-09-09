@@ -1,3 +1,20 @@
 .squares {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.squares__box {
+    display: flex;
+    justify-content: space-between;
+    width: 468px;
+    height: 160px;
+    background-color: orange;
+}
+
+.squares__square {
+    width: 40px;
+    height: 40px;
+    background-color: darkred;
 }
