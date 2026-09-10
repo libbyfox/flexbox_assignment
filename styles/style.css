@@ -11,7 +11,9 @@
     width: 468px;
     height: 160px;
     background-color: orange;
+    padding: 10px;
 }
+
 
 .squares__box--left {
     justify-content: flex-start;
@@ -42,6 +44,7 @@
     background-color: darkred;
 }
 
+
 .squares__square--tall {
     height: 120px;
 }
@@ -60,4 +63,20 @@
 
 .squares__square--wide {
     width: 156px;
+}
+
+body {
+    background-color: darkred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.squares {
+    width: 956px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
 }
